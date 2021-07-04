@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="111dp"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_quebec"
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:src="@drawable/quebec" />
+
+                <ImageView
+                    android:id="@+id/photo_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/photo_id" />
+
+                <ImageView
+                    android:id="@+id/signature"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    android:src="@drawable/signature"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="500dip"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/permis_de_conduire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:foregroundTint="#E2A5146A"
+                    android:text="@string/permis_de_conduire"
+                    android:textColor="#830F0F0F"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+
+                    />
+
+                <TextView
+                    android:id="@+id/numero_permis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/l1531_171374_08"
+                    android:textColor="#FC000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nom"
+                    style="@style/carte.section1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ramm"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/prenom"
+                    style="@style/carte.section1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arno_victor"
+                    android:textSize="10sp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/date_naissance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/date_de_naissance_a_m_j"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="102dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_1974_12_17"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/adresse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_782_rue_marie_victorin"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/adresse2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chicoutimi_qc_g7h2k9"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/blank"
+                        android:layout_width="209dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/sexe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sexe"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/sexe2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/f"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/classe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/classe_s"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/classe2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="212dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/cond"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/cond"
+                                android:textColor="#993085C5"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/cond2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/a_c"
+                                android:textColor="#000000"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/mention"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/mention_s"
+                                android:textColor="#993085C5"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/mention2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/f_m_t"
+                                android:textColor="#000000"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/taille"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/taille_cm"
+                                android:textColor="#993085C5"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/taille2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="28dp"
+                                android:text="@string/_185"
+                                android:textColor="#000000"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/yeux"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/yeux"
+                                android:textColor="#993085C5"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/yeux2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/brun"
+                                android:textColor="#000000"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+                        </TableRow>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/no_ref"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:text="@string/n_de_r_f_rence"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/no_ref2"
+                        android:layout_width="155dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/p_b_m_h_9_2_v_7_0"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/date_valide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/valide_le"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/date_valide2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2014_10_01"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/espace"
+                        android:layout_width="41dp"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/date_expire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expire_le"
+                        android:textColor="#993085C5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/date_expire2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_2022_12_17"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/texte_fin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:text="@string/paiement_exig_chaque_ann_e_votre_date_d_anniversaire_de_naissance"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

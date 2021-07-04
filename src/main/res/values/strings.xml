@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">permis_de_conduire</string>
+    <string name="permis_de_conduire">Permis de conduire</string>
+    <string name="l1531_171374_08">L1531-171374-08</string>
+    <string name="ramm">RAMM</string>
+    <string name="arno_victor">Arno Victor</string>
+    <string name="date_de_naissance_a_m_j">Date de naissance (A-M-J) :</string>
+    <string name="_1974_12_17">1974-12-17</string>
+    <string name="_782_rue_marie_victorin">782 rue Marie Victorin</string>
+    <string name="chicoutimi_qc_g7h2k9">Chicoutimi QC G7H2K9</string>
+    <string name="sexe">Sexe :</string>
+    <string name="f">F</string>
+    <string name="classe_s">Classe(s) :</string>
+    <string name="_5">5</string>
+    <string name="cond">Cond :</string>
+    <string name="a_c">A C</string>
+    <string name="mention_s">Mention(s) :</string>
+    <string name="f_m_t">F M T</string>
+    <string name="taille_cm">Taille (cm) :</string>
+    <string name="_185">185</string>
+    <string name="yeux">Yeux :</string>
+    <string name="brun">BRUN</string>
+    <string name="n_de_r_f_rence">N° de référence :</string>
+    <string name="p_b_m_h_9_2_v_7_0">P B M H 9 2 V 7 0</string>
+    <string name="valide_le">Valide le :</string>
+    <string name="_2014_10_01">2014-10-01</string>
+    <string name="expire_le">Expire le :</string>
+    <string name="_2022_12_17">2022-12-17</string>
+    <string name="paiement_exig_chaque_ann_e_votre_date_d_anniversaire_de_naissance">Paiement exigé chaque année à votre date d\'anniversaire de naissance</string>
+    <string name="nom">Nom :</string>
+    <string name="votre_nom">Votre nom</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="votre_pr_nom">Votre prénom</string>
+    <string name="mettre_jour_les_informations">Mettre à jour les informations</string>
+    <string name="m">M</string>
+    <string name="cacher_la_signature">Cacher la signature</string>
+</resources>
